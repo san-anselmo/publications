@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="description" content="Meet the writers whose work San Anselmo Publications is honored to publish.">
+  <title>Authors — San Anselmo Publications, Inc.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=1.0.15">
+</head>
+<body>
+  <div id="navContainer"></div>
+  <div class="page-body">
+    <main class="main-content" id="mainContent" role="main">
+      <section class="content-section active" aria-label="Authors">
+        <div class="section-inner">
+          <header class="page-header">
+            <div class="page-eyebrow">The Voices</div>
+            <h1 class="page-title">Our <span class="accent">Authors</span></h1>
+            <p class="page-subtitle">Writers whose work we are honored to publish</p>
+          </header>
+          <div class="author-grid" id="authorGrid" role="list"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Author Modal -->
+  <div class="modal-overlay" id="authorModal" role="dialog" aria-modal="true" aria-labelledby="amName">
+    <article class="modal-card">
+      <div class="modal-close"><button class="modal-close-btn" onclick="closeModal('authorModal')" aria-label="Close">×</button></div>
+      <div class="modal-body">
+        <div class="am-header">
+          <div class="am-avatar" id="amAvatar" aria-hidden="true"></div>
+          <div><div class="am-name" id="amName"></div><div class="am-bio" id="amBio"></div></div>
+        </div>
+        <div class="det-meta-label" style="margin-bottom:.7rem;letter-spacing:.12em">Publications</div>
+        <div class="am-books" id="amBooks" role="list"></div>
+      </div>
+    </article>
+  </div>
+
+  <div id="backToTopContainer"></div>
+  <script src="data/fallback-data.js?v=1.0.15"></script>
+  <script src="js/sheets-cms.js?v=1.0.15"></script>
+  <script src="js/components.js?v=1.0.15"></script>
+  <script src="js/authors.js?v=1.0.15"></script>
+</body>
+</html>

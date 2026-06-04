@@ -1,0 +1,21 @@
+{
+  "name": "San Anselmo Publications",
+  "short_name": "San Anselmo",
+  "description": "Browse our complete catalog of Filipino literature, poetry, fiction, and journals.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#F5EFE4",
+  "theme_color": "#8C3D1F",
+  "icons": [
+    {
+      "src": "images/sap logo only.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "images/sap logo only.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}
